@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A simple expenses tracker" />
+    <title>Expenses Tracker</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="main-container">
+      <h1>Expenses Tracker</h1>
+
+      <!----- BALANCE DIV ----->
+      <div class="balance-tracker">
+        <h2>Your Balance</h2>
+        <p id="total-balance">₦0</p>
+
+        <div class="income-expense-div">
+          <div class="income">
+            <h3>Income</h3>
+            <p>₦0</p>
+          </div>
+
+          <div class="expenses">
+            <h3>Expenses</h3>
+            <p>₦0</p>
+          </div>
+        </div>
+      </div>
+
+      <!----- TRANSACTIONS HISTORY  ----->
+      <div class="transaction-section">
+        <div class="transaction">
+          <ul id="transaction-list">
+            <!----- TRANSACTIONS WILL BE INSERTED HERE DYNAMICALLY ----->
+          </ul>
+        </div>
+
+        <!----- ADD TRANSACTION FORM ----->
+        <div class="form-div">
+          <form>
+            <h3>Add transaction</h3>
+            <label for="description">Description</label>
+            <input
+              type="text"
+              name="description"
+              id="description"
+              placeholder="Enter description"
+            />
+
+            <label for="amount">Amount</label>
+            <input
+              type="number"
+              inputmode="decimal"
+              step="any"
+              name="amount"
+              id="amount"
+              placeholder="Enter amount"
+            />
+            <p id="error"><!-- FOR ERROR MESSAGES --></p>
+            <small>For expenses, prefix amount with (-).</small>
+
+            <button type="submit">Add Transaction</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="script.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
