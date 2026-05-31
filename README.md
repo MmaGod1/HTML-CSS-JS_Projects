@@ -17,4 +17,5 @@ While building these projects, I practiced and strengthened the following concep
 - CSS Keyframe Animations (creating smooth animations)  
 - CSS Vendor Prefixing / WebKit Compatibility (`-webkit-` properties for cross-browser support)  
 - Font Awesome (icon integration)
-
+- DOMContentLoaded Event (executing JavaScript after the DOM has been fully loaded and parsed)
+- `setAttribute()` (creating and modifying HTML element attributes dynamically)
