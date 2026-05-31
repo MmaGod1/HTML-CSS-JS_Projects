@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A simple expenses tracker" />
+    <title>Expenses Tracker</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="main-container">
+      <h1>Bookmark Saver</h1>
+
+      <form class="bookmark-form">
+        <label for="name"></label>
+        <input id="name" for="name" type="text" placeholder="Bookmark Name" />
+        <label for="url"></label>
+        <input id="url" for="url" type="text" placeholder="Bookmark URL" />
+
+        <button class="add-bookmark" type="submit">Add Bookmark</button>
+      </form>
+
+      <div>
+        <ul class="bookmarked-list">
+          <!----- BOOKMARED ITEMS WOULD APPEAR HERE ----->
+        </ul>
+      </div>
+    </div>
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
