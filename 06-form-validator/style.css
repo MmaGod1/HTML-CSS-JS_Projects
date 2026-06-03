@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #42545a4f;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 15px;
+  min-width: 300px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin: 1.2rem 1rem;
+  font-size: 1.7rem;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0;
+}
+
+.input-div label {
+  margin: 0.3rem 0;
+  color: #555;
+}
+
+.input-div input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1.5px solid #42545a4f;
+  transition: border-color 0.2s ease;
+}
+
+.input-div input:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+small {
+  color: red;
+}
+
+button {
+  padding: 12px 10px;
+  margin: 1.5rem 0 2.5rem 0;
+  background: #3498db;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.input-div.error input {
+  border-color: #e74c3c;
+}
+
+.input-div.success input {
+  border-color: #2ecc71;
+}
