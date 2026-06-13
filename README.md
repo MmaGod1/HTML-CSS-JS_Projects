@@ -19,3 +19,5 @@ While building these projects, I practiced and strengthened the following concep
 - Font Awesome (icon integration)
 - DOMContentLoaded Event (executing JavaScript after the DOM has been fully loaded and parsed)
 - `setAttribute()` (creating and modifying HTML element attributes dynamically)
+- charAt() (accessing characters in a string by index for string manipulation, e.g., capitalization of text)
+- Regular Expressions (RegEx) (pattern matching for validating and testing strings such as emails, passwords, and usernames)
