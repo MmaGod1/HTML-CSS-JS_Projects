@@ -53,8 +53,9 @@ h1 {
   border-color: #3498db;
 }
 
-small {
+.input-div small {
   color: red;
+  font-size: 3px;
 }
 
 button {
