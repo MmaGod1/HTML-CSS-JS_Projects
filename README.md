@@ -1,4 +1,4 @@
-# Portfolio Projects
+# Fifty Things Built with HTML, CSS and JavaScript
 
 ## Skills and Concepts Practiced
 
