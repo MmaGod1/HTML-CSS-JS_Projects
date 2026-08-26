@@ -59,6 +59,8 @@ form.addEventListener("submit", function (e) {
     alert("Please enter both name and URL.");
     return;
   } else if (!url.startsWith("https://") && !url.startsWith("http://")) {
+    console.log(url)
+    console.log(name)
     alert("Please enter a valid URL starting with http:// or https://");
     return;
   }
