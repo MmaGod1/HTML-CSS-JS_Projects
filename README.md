@@ -1,4 +1,4 @@
-# Fifty Things Built with HTML, CSS and JavaScript
+# Twenty Things Built with HTML, CSS and JavaScript
 
 ## Skills and Concepts Practiced
 

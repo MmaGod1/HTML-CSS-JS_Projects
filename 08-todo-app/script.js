@@ -7,7 +7,7 @@ const clearBtn = document.getElementById("clear-btn")
 
 // GET, SAVE AND RENDER TODOS
 const todos = JSON.parse(localStorage.getItem("todos")) || [];
-console.log(todos)
+// console.log(todos)
 
 function preventDuplicateTodos(text) {
     return todos.some(todo => todo.text === text)
