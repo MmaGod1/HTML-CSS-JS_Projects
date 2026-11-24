@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+    <main class="app">
+        <header>
+            <h1>
+                <i class="fas fa-check-circle"></i>
+                My Task
+            </h1>
+            <p id="date">Date</p>
+        </header>
+
+        <section class="input-section">
+            <input type="text" id="todo-input" placeholder="What do you need to do?">
+            <button class="add-todo"><i class="fas fa-plus"></i></button>
+         </section>
+
+        <article class="filters">
+            <span class="filter active" data-filter="all">All</span>
+            <span class="filter" data-filter="completed">Completed</span>
+            <span class="filter" data-filter="active">Active</span>
+        </article>
+
+        <article class="todos-container">
+            <ul class="todos-list">
+                <!-- list would be rendered here dynamically -->
+            </ul>
+
+            <section class="empty-state">
+                <i class="fas fa-clipboard-list"></i>
+                <p>No task here yet</p>
+            </section>
+        </article>
+
+        <footer>
+            <p><span id="task-number">0 items</span> left</p>
+            <button id="clear-btn">Clear completed</button>
+        </footer>
+        
+    </main>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
