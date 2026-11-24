@@ -21,3 +21,5 @@ While building these projects, I practiced and strengthened the following concep
 - `setAttribute()` (creating and modifying HTML element attributes dynamically)
 - charAt() (accessing characters in a string by index for string manipulation, e.g., capitalization of text)
 - Regular Expressions (RegEx) (pattern matching for validating and testing strings such as emails, passwords, and usernames)
+- insertAdjacentHTML() (inserting HTML content into the DOM at a specified position relative to an existing element)
+- Boolean Expressions (evaluating conditions to produce true or false values for conditional logic)
